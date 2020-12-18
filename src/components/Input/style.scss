@@ -1,0 +1,31 @@
+$background-color: #0f4c75;
+$background-secondary: #3282b8;
+$links-color: #bbe1fa;
+$font-color: #1b262c;
+.input {
+  width: 360px;
+  background-color: $background-secondary;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  font-weight: 100;
+  color: $font-color;
+  margin-right: 2rem;
+  border: none;
+  border-radius: 1rem;
+}
+.input::placeholder {
+  color: $font-color;
+  font-weight: 100;
+}
+.input:focus {
+  outline: none;
+}
+@media only screen and (max-device-width: 480px) {
+  .input {
+    width: 300px;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+}

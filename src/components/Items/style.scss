@@ -1,0 +1,21 @@
+$background-color: #0f4c75;
+$background-secondary: #3282b8;
+$links-color: #bbe1fa;
+$font-color: #1b262c;
+
+.infodata {
+  font-weight: 100;
+}
+.link {
+  text-decoration: none;
+  color: $links-color;
+  font-size: 1.2rem;
+  .icon {
+    width: 2.5rem;
+  }
+}
+@media only screen and (max-device-width: 480px) {
+  .wrapperData {
+    margin-bottom: 1rem;
+  }
+}

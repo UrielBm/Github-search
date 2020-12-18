@@ -1,0 +1,9 @@
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+@media only screen and (max-device-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+  }
+}
